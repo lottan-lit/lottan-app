@@ -1,9 +1,16 @@
 # LOTTAN para Android
 
-Página de download da versão de teste 0.2.0.
+Site público: https://lottan-lit.github.io/lottan-app/
 
-Hospedagem GitHub Pages: publicar a branch `main`, pasta `/ (root)`.
+## 0.2.1 — ajuste de layout e navegação Android
 
-O arquivo APK é uma compilação de teste assinada. Requer Android 8+ e Android System WebView atualizado. A compilação e assinatura foram verificadas, mas a execução nativa ainda precisa de validação em aparelho Android.
+- Áreas de sistema aplicadas ao contêiner nativo, evitando sobreposição da interface WebView.
+- Navegação do Android em modo imersivo com revelação transitória por gesto, tanto na biblioteca como no leitor.
+- Aparência das barras e modo imersivo gerenciados juntos, sem a troca de tema cancelar a ocultação.
+- Layout com altura medida dentro da área útil; barra da LOTTAN em espaço próprio, sem sobrepor o conteúdo.
+- Tela inicial mais compacta, hierarquia de texto, capas e espaçamentos revisados.
+- Mesmo pacote e mesma assinatura da 0.2.0: instalar por cima, sem desinstalar.
 
-Não inclui chaves de assinatura, dados pessoais, PDFs do usuário ou credenciais.
+Compilação e assinatura verificadas. Testes de interface em larguras de 360 e 393 px; integração JavaScript conferida. A ocultação nativa e o layout ainda precisam de validação no Moto G84 físico.
+
+Requer Android 8+ com Android System WebView atualizado. APK de teste fora da Play Store.
