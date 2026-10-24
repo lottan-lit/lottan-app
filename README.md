@@ -1,10 +1,7 @@
-# LOTTAN para Android — 0.2.4
+# LOTTAN Android 0.2.5
 
-Site: https://lottan-lit.github.io/lottan-app/
+https://lottan-lit.github.io/lottan-app/
 
-- Botões do Android visíveis, fundo integrado e sem a faixa de contraste translúcida.
-- Área inferior dinâmica acompanha navegação e teclado, com transição curta ao mudar a navegação.
-- Degradês maiores e mais fortes em cinza; vidro com blur, bordas e reflexos mais visíveis.
-- Mesmo pacote e certificado: instalar como atualização, preservando os dados.
+Ícones de navegação consistentes; mapa diário de leitura por semana, mês e ano; pastas e categorias locais para PDFs. O histórico diário começa nesta versão. Instalar como atualização sem desinstalar.
 
-Verificados: compilação Java/DEX, assinatura, integração JavaScript e insets dinâmicos com doubles do framework nas APIs 26,28,30,35. Falta validação física no Moto G84.
+Compilação, assinatura, integração e fluxos de organização verificados. Aguardando teste físico no Moto G84.
